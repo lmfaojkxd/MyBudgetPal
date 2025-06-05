@@ -1,12 +1,80 @@
 Type,Amount,Category,Date
 Income,50000,Salary,2025-05-01
+Income,2000,Freelance,2025-05-05
+Income,1000,Gift,2025-05-10
+Income,3000,Bonus,2025-05-15
 Expense,2000,Groceries,2025-05-03
 Expense,1500,Transport,2025-05-04
-Income,2000,Freelance,2025-05-05
 Expense,800,Entertainment,2025-05-06
 Expense,1200,Utilities,2025-05-07
-Income,1000,Gift,2025-05-10
 Expense,500,Coffee,2025-05-11
 Expense,300,Snacks,2025-05-12
-Income,3000,Bonus,2025-05-15
 Expense,2500,Shopping,2025-05-18
+Expense,1700,Health,2025-05-20
+Expense,600,Dining Out,2025-05-24
+Income,48000,Salary,2025-06-01
+Income,1200,Freelance,2025-06-05
+Income,2000,Gift,2025-06-10
+Income,2800,Bonus,2025-06-15
+Expense,2200,Groceries,2025-06-02
+Expense,900,Transport,2025-06-04
+Expense,1000,Entertainment,2025-06-06
+Expense,1300,Utilities,2025-06-07
+Expense,700,Coffee,2025-06-09
+Expense,350,Snacks,2025-06-12
+Expense,3000,Shopping,2025-06-18
+Expense,1600,Health,2025-06-20
+Expense,550,Dining Out,2025-06-22
+Expense,450,Books,2025-06-26
+Income,50000,Salary,2025-07-01
+Income,1800,Freelance,2025-07-05
+Income,2500,Bonus,2025-07-15
+Expense,2100,Groceries,2025-07-03
+Expense,1000,Transport,2025-07-04
+Expense,950,Entertainment,2025-07-06
+Expense,1400,Utilities,2025-07-07
+Expense,650,Coffee,2025-07-08
+Expense,400,Snacks,2025-07-11
+Expense,2800,Shopping,2025-07-18
+Expense,1800,Health,2025-07-20
+Expense,500,Dining Out,2025-07-22
+Expense,600,Books,2025-07-25
+Income,51000,Salary,2025-08-01
+Income,2200,Freelance,2025-08-06
+Income,1500,Side Job,2025-08-14
+Expense,2400,Groceries,2025-08-03
+Expense,1200,Transport,2025-08-04
+Expense,900,Entertainment,2025-08-06
+Expense,1350,Utilities,2025-08-07
+Expense,750,Coffee,2025-08-09
+Expense,300,Snacks,2025-08-10
+Expense,2000,Shopping,2025-08-15
+Expense,1700,Health,2025-08-20
+Expense,900,Dining Out,2025-08-22
+Expense,500,Books,2025-08-28
+Income,50500,Salary,2025-09-01
+Income,2500,Freelance,2025-09-05
+Income,3000,Bonus,2025-09-15
+Expense,2300,Groceries,2025-09-02
+Expense,850,Transport,2025-09-04
+Expense,1200,Entertainment,2025-09-06
+Expense,1250,Utilities,2025-09-08
+Expense,500,Coffee,2025-09-10
+Expense,450,Snacks,2025-09-12
+Expense,3100,Shopping,2025-09-18
+Expense,2000,Health,2025-09-20
+Expense,800,Dining Out,2025-09-22
+Expense,550,Books,2025-09-27
+Income,50000,Salary,2025-10-01
+Income,2700,Freelance,2025-10-03
+Income,1800,Gift,2025-10-10
+Expense,2500,Groceries,2025-10-04
+Expense,1100,Transport,2025-10-05
+Expense,850,Entertainment,2025-10-06
+Expense,1400,Utilities,2025-10-08
+Expense,600,Coffee,2025-10-09
+Expense,500,Snacks,2025-10-11
+Expense,2600,Shopping,2025-10-18
+Expense,2100,Health,2025-10-20
+Expense,950,Dining Out,2025-10-22
+Expense,700,Books,2025-10-25

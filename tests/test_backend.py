@@ -1,3 +1,5 @@
+# tests -> test_backend.py
+
 import unittest
 from backend import BudgetManager
 from datetime import datetime
@@ -52,6 +54,18 @@ class TestBudgetManager(unittest.TestCase):
         summary = self.manager.get_monthly_summary()
         self.assertEqual(summary["Jun 2024"]["Income"], 1000)
         self.assertEqual(summary["Jun 2024"]["Expense"], 300)
+        
+    def test_mixed_transactions_balance(self):
+        self.manager.add_transaction("Income", 1000, "Salary", datetime.today())
+        self.manager.add_transaction("Expense", 300, "Rent", datetime.today())
+        self.assertEqual(self.manager.get_balance(), 700)
+    
+    def test_multiple_months_summary(self):
+        self.manager.add_transaction("Income", 500, "Jan Job", datetime(2025, 1, 1))
+        self.manager.add_transaction("Income", 1000, "Feb Job", datetime(2025, 2, 1))
+        summary = self.manager.get_monthly_summary()
+        self.assertIn("Jan 2025", summary)
+        self.assertIn("Feb 2025", summary)
 
 if __name__ == "__main__":
     unittest.main()
