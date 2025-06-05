@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage reports
+.coverage
+htmlcov/
+*.cover
+coverage.xml
+*.log
+
+# Python virtual environments
+venv/
+.env/
+.env.*
+
+# macOS files
+.DS_Store
+
+# Report files
+report.html
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.swp
+
+# Node modules (if applicable)
+node_modules/
+
+# System files
+Thumbs.db
