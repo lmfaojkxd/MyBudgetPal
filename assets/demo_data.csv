@@ -1,0 +1,12 @@
+Type,Amount,Category,Date
+Income,50000,Salary,2025-05-01
+Expense,2000,Groceries,2025-05-03
+Expense,1500,Transport,2025-05-04
+Income,2000,Freelance,2025-05-05
+Expense,800,Entertainment,2025-05-06
+Expense,1200,Utilities,2025-05-07
+Income,1000,Gift,2025-05-10
+Expense,500,Coffee,2025-05-11
+Expense,300,Snacks,2025-05-12
+Income,3000,Bonus,2025-05-15
+Expense,2500,Shopping,2025-05-18
