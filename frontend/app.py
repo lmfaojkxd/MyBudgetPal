@@ -12,6 +12,7 @@ from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QLineEdit, QPushButton, QTableWidget, QTableWidgetItem,
     QVBoxLayout, QHBoxLayout, QFileDialog, QMessageBox, QHeaderView
 )
+from .style import APP_STYLE
 from backend import BudgetManager
 
 class BudgetApp(QWidget):
@@ -138,53 +139,7 @@ class BudgetApp(QWidget):
         self.setLayout(main_layout)
 
         # StyleSheet
-        self.setStyleSheet("""
-            QWidget {
-                background-color: #1C1C1E;
-                color: white;
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-                font-size: 14px;
-            }
-
-            QLabel {
-                color: #D1D1D6;
-            }
-
-            QLineEdit, QComboBox, QDateEdit {
-                background-color: #2C2C2E;
-                color: white;
-                border: 1px solid #3A3A3C;
-                border-radius: 8px;
-                padding: 6px 10px;
-            }
-
-            QPushButton {
-                background-color: #0A84FF;
-                color: white;
-                padding: 8px 12px;
-                border: none;
-                border-radius: 10px;
-            }
-
-            QPushButton:hover {
-                background-color: #409CFF;
-            }
-
-            QTableWidget {
-                background-color: #2C2C2E;
-                border: 1px solid #3A3A3C;
-                color: white;
-                gridline-color: #48484A;
-            }
-
-            QHeaderView::section {
-                background-color: #2C2C2E;
-                color: #D1D1D6;
-                border: none;
-                font-weight: 600;
-                padding: 6px;
-            }
-        """)
+        self.setStyleSheet(APP_STYLE)
 
     def load_demo_data(self):
         try:
@@ -312,10 +267,3 @@ class BudgetApp(QWidget):
 
         plt.tight_layout()
         plt.show()
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    demo_mode = "--demo" in sys.argv
-    window = BudgetApp(demo_mode=demo_mode)
-    window.show()
-    sys.exit(app.exec_())

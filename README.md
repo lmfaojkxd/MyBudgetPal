@@ -27,15 +27,20 @@ pip install -r requirements.txt
 To launch the application in normal mode:
 
 ```bash
-python frontend.py
+python main.py
 ```
 
 To launch in demo mode with sample data:
 
 ```bash
-python frontend.py --demo
+python main.py --demo
 ```
 
+### 4. Run the Tests
+
+```bash
+pytest --cov=. --html=report.html
+```
 ---
 
 ## Features
